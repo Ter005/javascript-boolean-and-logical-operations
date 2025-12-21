@@ -1,9 +1,18 @@
 //Exercise #3: Debugging (Boolean & Logical Operations)
 
 //Start coding here
-let numberA = 100;
-const numberB = 20;
-
-numberA = 10;
-
-console.log(`Sum: ${numberA + numberB}`);
+  // Exercise #3 Debugging
+  const employee = {
+      name: "John Doe",
+      age: 18,
+      address: {
+        street: "123 Main Street",
+        city: "Cityville",
+        states: "Stateville",
+        country: "Countryland",
+        postalCode: "12345",
+      },
+  };
+console.log("Employee Name: " + employee.name);
+console.log("Employee Age: " + employee.age);
+console.log("Employee Address: " + employee.address.street + ", " + employee.address.city + ", " + employee.address.states + ", " + employee.address.country + " " + employee.address.postalCode);
